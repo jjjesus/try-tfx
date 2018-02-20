@@ -1,6 +1,6 @@
-package com.example.demo.view
+package com.johnjesus.demo.view
 
-import com.example.demo.app.Styles
+import com.johnjesus.demo.app.Styles
 import javafx.scene.control.Label
 import javafx.scene.layout.BorderPane
 import tornadofx.*
