@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/try-tfx.iml" filepath="$PROJECT_DIR$/.idea/modules/try-tfx.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/try-tfx_main.iml" filepath="$PROJECT_DIR$/.idea/modules/try-tfx_main.iml" group="try-tfx" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/try-tfx_test.iml" filepath="$PROJECT_DIR$/.idea/modules/try-tfx_test.iml" group="try-tfx" />
+    </modules>
+  </component>
+</project>
