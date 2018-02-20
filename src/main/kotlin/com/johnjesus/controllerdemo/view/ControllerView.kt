@@ -3,7 +3,7 @@ package com.johnjesus.controllerdemo.view
 import javafx.scene.paint.Color
 import tornadofx.*
 
-class MainView : View() {
+class ControllerView : View() {
     val controller: MyController by inject()
     override val root = vbox {
         label("Input")
