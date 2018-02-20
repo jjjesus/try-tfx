@@ -7,19 +7,11 @@ import tornadofx.*
 
 class MainView : View("Hello TornadoFX") {
 
-    // The inject() delegate will lazily assign a given component
-    // to a property. The inject() will assign the component only
-    // after that component is called (instead of during construction)
+    // This is called the 'builder' syntax
     //
-    val topView: TopView by inject()
-    val bottomView: BottomView by inject()
-    override val root = BorderPane()
-
-    init {
-        with(root) {
-            top = topView.root
-            bottom = bottomView.root
-        }
+    override val root = borderpane {
+        top(TopView::class)
+        bottom(BottomView::class)
     }
 }
 
